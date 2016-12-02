@@ -1,0 +1,28 @@
+/*
+所有標籤基礎設定
+*/
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+section,
+body,
+article,
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+常用圖片設定
+*/

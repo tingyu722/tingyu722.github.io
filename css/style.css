@@ -1,0 +1,45 @@
+/*背景設定*/
+
+body {
+    background-color: #efcfc4;
+}
+
+a {
+    text-decoration: none;
+    color: #a4a3a3;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px
+}
+
+.site-about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.site-works {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.profile {
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 95px);
+    left: calc(50% - 100px);
+}
+
+.profile-img {
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+}
+
+.caption-title {
+    line-height: 40px;
+    width: 200px;
+}
+
+.caption-title a:hover {
+    color: #ff3606;
+}
