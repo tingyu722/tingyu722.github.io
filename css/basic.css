@@ -33,6 +33,10 @@ div {
     width: 100%;
 }
 
+.thunmnail .caption h3 {
+    font-size: 1em;
+}
+
 .thumbnail .caption p {
     font-size: 0.75em;
 }
