@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-    letter-spacing: 1px;
 }
 
 h1,
@@ -17,6 +16,8 @@ p,
 section,
 body,
 article,
+aside,
+nav,
 div {
     margin: 0px;
     padding: 0px;
