@@ -23,7 +23,7 @@
     position: absolute;
     top: 82px;
     left: 13px;
-    overflow: scroll;
+    overflow: auto;
     font-size: 12px;
 }
 
@@ -161,10 +161,6 @@
     list-style: none;
 }
 
-.screen ul:after {
-    clear: both;
-}
-
 .menu-list li {
     float: left;
     width: 20%;
@@ -174,10 +170,29 @@
     color: #fff;
     border: 0;
     cursor: pointer;
+    position: relative;
 }
 
 .menu-list li:hover {
     background: pink;
+}
+
+.menu-list li ul {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    display: none;
+}
+
+.menu-list li:hover>ul {
+    display: block;
+}
+
+.menu-list li ul li {
+    float: none;
+    width: auto;
+    padding: 8px 8px;
+    border: 1px solid white;
 }
 
 .work-list li {
