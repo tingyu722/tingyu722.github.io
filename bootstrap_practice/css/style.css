@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+	padding-top: 100px;
+}
+.nav {
+	position: relative;
+}
+.ico-hambuger {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	color: #fff;
+	font-size: 1.5em;
+	cursor: pointer;
+}
