@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+  padding-top: 100px;
+}
+.nav {
+  position: relative;
+}
+.ico-hambuger {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+#myCarousel {
+  margin-bottom: 30px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+}
+.carousel-control {
+	width: 8%;
+}
+.modal-header {
+	border: 0;
+	padding-bottom: 0;
+}
+.modal-body img {
+	max-width: 90%;
+}
+.container .jumbotron {
+  background: #d9cbcb;
+}
+.jumbotron h1 {
+  margin-top: 10px;
+}
+.jumbotron p {
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: 200;
+}

@@ -1,0 +1,240 @@
+body {
+  padding-top: 100px;
+}
+.nav {
+  position: relative;
+}
+.ico-hambuger {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.front {
+  /*background-image: url(../images/iPhone%20Model.png);*/
+  background-position: -22px -7px;
+  width: 357px;
+  height: 740px;
+  border: 5px solid #ddd;
+  border-radius: 48px 48px 49px 49px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  margin: 0 auto;
+}
+.front .screen {
+  /*background: -webkit-linear-gradient(#ddd, #7f7f7f);
+  background: -o-linear-gradient(#ddd, #7f7f7f);
+  background: -moz-linear-gradient(#ddd, #7f7f7f);
+  background: linear-gradient(#ddd, #7f7f7f);*/
+  background: #000;
+  width: 321px;
+  height: 570px;
+  border: 3px solid black;
+  border-radius: 3px;
+  position: absolute;
+  top: 82px;
+  left: 13px;
+  overflow: auto;
+  font-size: 12px;
+}
+.front .btn-home-outer {
+  background: #525254;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#525254', endColorstr='#5d5e60', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  position: absolute;
+  top: 660px;
+  left: 145px;
+}
+.front .btn-home-inner {
+  background-color: white;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  position: absolute;
+  top: 663px;
+  left: 148px;
+}
+.front .speaker {
+  background-color: black;
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  top: 41px;
+  left: 143px;
+}
+.front .camera-sensor {
+  background-color: black;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 37px;
+  left: 108px;
+}
+.front .camera-lense {
+  background-color: black;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: 168px;
+}
+.front .btn-mode {
+  background-color: #ddd;
+  width: 3px;
+  height: 57px;
+  border-radius: 0px 3px 3px 0px;
+  position: absolute;
+  top: 155px;
+  left: 352px;
+}
+.front .btn-ring-silent {
+  background-color: #ddd;
+  width: 2px;
+  height: 35px;
+  border-radius: 3px 0px 0px 3px;
+  position: absolute;
+  top: 88px;
+  left: -7px;
+}
+.front .btn-volume-up {
+  background-color: #ddd;
+  width: 3px;
+  height: 56px;
+  border-radius: 3px 0px 0px 3px;
+  position: absolute;
+  top: 155px;
+  left: -8px;
+}
+.front .btn-volume-down {
+  background-color: #ddd;
+  width: 3px;
+  height: 57px;
+  border-radius: 3px 0px 0px 3px;
+  position: absolute;
+  top: 223px;
+  left: -8px;
+}
+.front .antenna {
+  background-color: #bfbfc0;
+  width: 5px;
+  height: 11px;
+  position: absolute;
+}
+.front .a-tl {
+  top: 54px;
+  left: -5px;
+}
+.front .a-tr {
+  top: 54px;
+  left: 347px;
+}
+.front .a-br {
+  height: 12px;
+  top: 667px;
+  left: 347px;
+}
+.front .a-bl {
+  height: 12px;
+  top: 667px;
+  left: -5px;
+}
+.screen ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu-list li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 8px 0;
+  background: #666;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+}
+.menu-list li:hover {
+  background: pink;
+}
+.menu-list li ul {
+  position: absolute;
+  top: 29px;
+  left: 30px;
+  display: none;
+}
+.menu-list li:hover>ul {
+  display: block;
+}
+.menu-list li ul li {
+  float: none;
+  width: auto;
+  padding: 8px 8px;
+  border: 1px solid white;
+}
+.work-list li {
+  border: 0;
+  float: left;
+  width: 33.33%;
+  padding: 5px 1%;
+}
+.work-list li img {
+  width: 100%;
+}
+.work-list .work-thumbnail {
+  min-height: 80px;
+}
+.work-list .work-title {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.2em;
+  color: chocolate;
+}
+.work-list .work-desc {
+  margin: 10px 0;
+  height: 60px;
+  line-height: 15px;
+  overflow: hidden;
+  word-break: break-all;
+}
+.content {
+  padding: 10px 20px;
+}
+.content .profile-img {
+  text-align: center;
+}
+.content img {
+  width: 80%;
+}
+.content .intro {
+  color: #fff;
+  margin-top: 20px;
+}
+.content .intro h1 {
+  margin: 10px 0;
+}
+.content .intro h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.content .intro p {
+  margin: 5px 0;
+}
